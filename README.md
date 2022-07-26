@@ -14,6 +14,8 @@ A major challenge faced by health care organizations, such as hospitals and medi
 
 The proposed system can determine an exact hidden knowledge, i.e., patterns and relationships associated with heart disease from a heart disease dataset. It can also answer the complex queries for diagnosing heart disease; therefore, it can be helpful to health care practitioners to make intelligent clinical decisions.
 
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <h2> 💾 Data Description </h2> 
 
 <b>Demographic:</b>
@@ -40,3 +42,40 @@ The proposed system can determine an exact hidden knowledge, i.e., patterns and 
 
 <b>Predict variable (desired target):</b>
 * <b>TenYearCHD:</b> 10-year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”) - DV
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> 🛠️ Tools and Technologies Used </h2> 
+
+The whole project is done using python, in Google Collaboratory. 
+Following libraries were used for analyzing the data and visualizing it and to build the model to predict the Netflix clustering
+
+* Pandas: Extensively used to load and wrangle with the dataset.
+* Matplotlib: Matplotlib: Used for visualization.
+* Seaborn: Seaborn: Used for visualization.
+* WarningsWarnings: For filtering and ignoring the warnings.
+* NumPy: NumPy: For some math operations in predictions.
+* Sklearn: Sklearn: For the purpose of analysis and prediction and evaluation.
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> 🪜 Steps Involved </h2>
+
+* Handling missing values
+* Duplicate Values Treatment
+* Checking for Outliers
+* Exploratory Data Analysis
+* Dealing with categorical variables
+* Splitting data into train and test datasets
+* Model Training
+* Model Comparison
+* Cross Validation of the best model
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> 💡 Conclusion </h2>
+
+* All attributes selected after the elimination process show P-values lower than 5% and thereby suggesting significant role in the heart disease prediction.
+* Men seem to be more susceptible to heart disease than women. Increase in age, number of cigarettes smoked per day, glucose and systolic Blood Pressure also show increasing odds of having heart disease.
+* Total cholesterol shows no significant change in the odds of CHD. This could be due to the presence of 'good cholesterol (HDL) in the total cholesterol reading. Glucose too causes a very negligible change in odds (0.2%)
+* The model predicted with 0.86 accuracy. The model is more specific than sensitive. Overall model could be improved with more data.
