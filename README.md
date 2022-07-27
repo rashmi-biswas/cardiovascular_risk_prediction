@@ -79,3 +79,9 @@ Following libraries were used for analyzing the data and visualizing it and to b
 * Men seem to be more susceptible to heart disease than women. Increase in age, number of cigarettes smoked per day, glucose and systolic Blood Pressure also show increasing odds of having heart disease.
 * Total cholesterol shows no significant change in the odds of CHD. This could be due to the presence of 'good cholesterol (HDL) in the total cholesterol reading. Glucose too causes a very negligible change in odds (0.2%)
 * The model predicted with 0.86 accuracy. The model is more specific than sensitive. Overall model could be improved with more data.
+
+<br>
+
+<p align="center"> 
+<img src="images/download (2).jpg" height="400px">
+</p>
